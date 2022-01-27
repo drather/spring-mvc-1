@@ -20,7 +20,11 @@ public class RequestHeaderServlet extends HttpServlet {
         printEtc(request);
     }
 
+    /**
+     * 주석 추가
+     */
     private void printStartLine(HttpServletRequest request) {
+
         System.out.println("--- REQUEST-LINE - start ---");
 
         System.out.println("request.getMethod() = " + request.getMethod()); //GET
